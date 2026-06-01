@@ -1,9 +1,9 @@
 class Aether < Formula
-  desc "Aether AI Coding Agent"
+  desc "Aether AI Agent — A professional-grade AI coding assistant"
   homepage "https://github.com/irtaza302/aether-agent"
-  url "https://github.com/irtaza302/aether-agent/releases/download/v1.0.0/aether-macos.tar.gz"
-  sha256 "dd36b886c34ce41442f0d431e0f690a95958e54ae2a0e0e7c9b2ee38b2864218"
-  version "1.0.0"
+  url "https://github.com/irtaza302/aether-agent/releases/download/v2.0.0/aether-macos.tar.gz"
+  sha256 "946f745fe6f6a826d064fa6ff3650ef9fb3f00594d3ac6dc240e933f22654ba6"
+  version "2.0.0"
 
   def install
     bin.install "aether"
