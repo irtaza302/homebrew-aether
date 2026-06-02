@@ -1,9 +1,9 @@
 class Aether < Formula
   desc "Aether AI Agent — A professional-grade AI coding assistant"
   homepage "https://github.com/irtaza302/aether-agent"
-  url "https://github.com/irtaza302/aether-agent/archive/refs/tags/v2.0.1.tar.gz"
+  url "https://github.com/irtaza302/aether-agent/archive/refs/tags/v2.1.0.tar.gz"
   sha256 "PLACEHOLDER_UPDATE_AFTER_RELEASE"
-  version "2.0.1"
+  version "2.1.0"
 
   depends_on "python"
 
