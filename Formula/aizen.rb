@@ -1,9 +1,9 @@
-class Aether < Formula
-  desc "Aether AI Agent — A professional-grade AI coding assistant"
-  homepage "https://github.com/irtaza302/aether-agent"
-  url "https://github.com/irtaza302/aether-agent/archive/refs/tags/v2.2.0.tar.gz"
+class Aizen < Formula
+  desc "Aizen AI Agent — A professional-grade AI coding assistant"
+  homepage "https://github.com/irtaza302/aizen-agent"
+  url "https://github.com/irtaza302/aizen-agent/archive/refs/tags/v2.2.1.tar.gz"
   sha256 "21b5d4ce325820ff8d0269e9a94470eadf793997cbb89c698b45b27b9eacbdfb"
-  version "2.2.0"
+  version "2.2.1"
 
   depends_on "python"
 
@@ -16,10 +16,10 @@ class Aether < Formula
     system "#{libexec}/bin/pip", "install", "."
     
     # Symlink the executable into bin
-    bin.install_symlink "#{libexec}/bin/aether"
+    bin.install_symlink "#{libexec}/bin/aizen"
   end
 
   test do
-    system "#{bin}/aether", "--version"
+    system "#{bin}/aizen", "--version"
   end
 end
