@@ -1,9 +1,9 @@
 class Aizen < Formula
   desc "Aizen AI Agent — A professional-grade AI coding assistant"
   homepage "https://github.com/irtaza302/aizen-agent"
-  url "https://github.com/irtaza302/aizen-agent/archive/refs/tags/v2.6.1.tar.gz"
-  sha256 "db417a5b957f52e45d261fc8b98694dc3448c1f47ad3e19459d1bc1fee40f4ea"
-  version "2.6.1"
+  url "https://github.com/irtaza302/aizen-agent/archive/refs/tags/v2.7.0.tar.gz"
+  sha256 "cf62b831e550cff5d26cc647ef0e13f424d5ed8c75704efe027bca441d55bee9"
+  version "2.7.0"
 
   depends_on "python"
 
